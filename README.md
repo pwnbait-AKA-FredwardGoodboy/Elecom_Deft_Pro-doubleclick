@@ -5,7 +5,7 @@ This script is for users of Debian-based systems, as it runs commands depending 
 This script requires superuser permissions via `sudo`.
 
 It will attempt to update the user's `apt` and then install the `xbindkeys xbindkeys-config xdotool` packages.
-After this, creates a configuration file at `~/.xbindkeysrc` that maps _Button 10_ to a doubleclick, adjusts permissions for the file, and restarts the xbindkeys service. A reboot should not be required.
+After this, creates a configuration file at `~/.xbindkeysrc` that maps _Button 10_ (as Linux sees it, not as the Windows configuration utility calls it) to a doubleclick, adjusts permissions for the file, and restarts the xbindkeys service. A reboot should not be required.
 
 I cannot guarantee this will work across multiple systems, and it **WILL NOT** work in COSMIC (Wayland) as used in Pop!_OS 24.04 LTS Beta.
 
